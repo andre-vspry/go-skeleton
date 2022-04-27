@@ -1,0 +1,16 @@
+{
+  "cSpell.words": [
+    "Errorw",
+    "gochecknoglobals",
+    "gomnd",
+    "gqlerror",
+    "gqlgen",
+    "gqlparser",
+    "Infow",
+    "nolint",
+    "oidc",
+    "stretchr",
+    "vektah",
+  ],
+  "go.testEnvFile": ".env.integration-test",
+}

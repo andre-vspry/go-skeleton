@@ -1,0 +1,36 @@
+run:
+  timeout: 10m
+  deadline: 2m
+  skip-dirs:
+    - scripts
+
+linter-settings:
+  govet:
+    check-shadowing: true
+  gocyclo:
+    min-complexity: 12.0
+  maligned:
+    suggest-new: true
+  goconst:
+    min-len: 3.0
+    min-occurrences: 3.0
+  misspell:
+    locale: US
+
+linters:
+  enable-all: true
+  disable:
+    - tparallel
+    - paralleltest
+    - exhaustivestruct
+    - forcetypeassert
+    - interfacer
+    - maligned
+    - scopelint
+    - golint
+    - wsl
+
+issues:
+  exclude-rules:
+    - path: go.mod
+      text: "replacement are not allowed"
