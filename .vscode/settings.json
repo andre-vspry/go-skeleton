@@ -1,16 +1,23 @@
 {
   "cSpell.words": [
+    "bluemonday",
+    "envconfig",
     "Errorw",
+    "firestore",
     "gochecknoglobals",
     "gomnd",
     "gqlerror",
     "gqlgen",
     "gqlparser",
+    "httplog",
     "Infow",
+    "kelseyhightower",
     "nolint",
+    "nyaruka",
     "oidc",
+    "phonenumbers",
     "stretchr",
-    "vektah",
+    "vektah"
   ],
   "go.testEnvFile": ".env.integration-test",
 }
