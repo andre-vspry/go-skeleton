@@ -2,9 +2,11 @@
   "cSpell.words": [
     "bluemonday",
     "envconfig",
+    "errcheck",
     "Errorw",
     "firestore",
     "gochecknoglobals",
+    "gocritic",
     "gomnd",
     "gqlerror",
     "gqlgen",
