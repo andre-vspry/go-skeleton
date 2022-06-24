@@ -36,3 +36,6 @@ go.work
 
 # Caddy
 Caddyfile
+
+# Nix shell generates
+/.pre-commit-config.yaml

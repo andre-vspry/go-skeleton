@@ -10,24 +10,6 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/kelseyhightower/envconfig"
 	"go.uber.org/zap"
-
-	_ "cloud.google.com/go/firestore"
-	_ "cloud.google.com/go/storage"
-	_ "firebase.google.com/go/v4"
-	_ "github.com/99designs/gqlgen/graphql/playground"
-	_ "github.com/coreos/go-oidc/v3/oidc"
-	_ "github.com/go-chi/chi/middleware"
-	_ "github.com/go-chi/httplog"
-	_ "github.com/golang-jwt/jwt/v4"
-	_ "github.com/google/uuid"
-	_ "github.com/gorilla/sessions"
-	_ "github.com/microcosm-cc/bluemonday"
-	_ "github.com/nyaruka/phonenumbers"
-	_ "github.com/stretchr/testify/assert"
-	_ "github.com/vektah/gqlparser/v2"
-	_ "golang.org/x/oauth2"
-	_ "google.golang.org/api"
-	_ "google.golang.org/grpc"
 )
 
 const (
