@@ -34,3 +34,9 @@ issues:
   exclude-rules:
     - path: go.mod
       text: "replacement are not allowed"
+    - path: _test.go
+      linters:
+        - funlen
+        - deepequalerrors
+        - wrapcheck
+        - errchkjson
